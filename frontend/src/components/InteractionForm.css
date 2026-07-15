@@ -1,0 +1,62 @@
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-top:0;
+    margin-bottom:20px;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:16px;
+}
+
+.form-group label{
+    margin-bottom:6px;
+    font-weight:600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select{
+
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+    box-sizing:border-box;
+
+}
+
+.row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+.save-btn{
+
+    width:100%;
+    margin-top:20px;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
