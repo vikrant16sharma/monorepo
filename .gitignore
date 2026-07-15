@@ -1,11 +1,2 @@
-# Python
-venv/
-__pycache__/
-*.pyc
-
-# Environment
-.env
-backend/.env
-
 # Node
 node_modules/
